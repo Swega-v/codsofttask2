@@ -1,0 +1,149 @@
+html:
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="you.css">
+    </head>
+    <body>
+        <div class="free">
+            <div>
+            <h1 style="text-align:center;">Welcome to My Landing Page</h1>
+            <nav>
+                <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+        <section id="about" class="section">
+            <h2 style="text-align:center;">About us</h2>
+        </section>
+       
+        <section class="center-content">
+            <img src="./wp7728231.webp" alt="A showcase of our development work" width="400px" height="300px">
+            <p>We are passionate developers creating user-friendly websites to meet your needs.</p>
+        </section>
+        
+
+        
+
+        <section id="services" class="section">
+            <h2 style="text-align:center;">Services</h2>
+            <div class="services">
+                <div class="service-box">
+                    <h3>Web Design</h3><br><br>
+                    <p>Modern and responsive designs for your business.</p>
+                    </div>
+                    <div class="service-box">
+                        <h3>Development</h3><br><br>
+                        <p>Robust and scalable websites tailored to your needs.</p>
+                    </div>
+                    <div class="service-box">
+                        <h3>Support</h3><br><br>
+                        <p>24/7 support to keep your website running smoothly.</p>
+                    </div>
+            </div>
+        </section>
+        <section id="contact" class="services">
+            <div class="contact-box">
+                <h2>Contact Us</h2>
+        
+                <p>Email: contact@website.com</p>
+                <p>Phone: +1 234 567 890</p>
+                </div>
+        </section>
+        <section>
+            <footer class="footer">
+                <p>&copy; 2024 My Website. All Rights Reserved.</p>
+            </footer>
+        </section>
+    </body>
+</html>
+
+css:
+.free h1 ul a{
+    background-image: url(./.vscode/Picture1.png);
+    padding-top:45px;
+    padding-bottom:145px;
+    background-color: antiquewhite;
+    margin:15px 15px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.free div nav ul li {
+    display: inline;
+    text-decoration: none;
+    gap:40px;
+    justify-content: center;
+}
+.free div nav ul{
+    padding-left: 6px;
+}
+
+.center-content {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    height: auto; 
+}
+
+.center-content p{
+    font-size: 30px;
+}
+
+
+
+
+img{
+    border-style: solid;
+    border-width:5px;
+    border-color: blue;
+    text-shadow: 5px 2px 3px yellowgreen;
+}
+.service-box{
+    background-color: blanchedalmond;
+    color:black;
+    padding-top:2px;
+    padding-left: 15px;
+    padding-bottom: 55px;
+    border-radius: 20px;
+    margin:5px;
+
+}
+.services{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .service-box:hover{
+        background-color:palevioletred;
+        border-color: blueviolet;
+        border-width: 4px;
+    }
+    .contact-box{
+        background-color: lavenderblush;
+        border-radius: 5%;
+        margin-top: 50px;
+        padding: 70px;
+    }
+    .footer{
+        background-color: black;
+        color:blanchedalmond;
+        height: 60px;
+        padding: 10px;
+    }
+    body{
+        background-image: url(hd-office-background-wwmb5ymdbjbjv689.jpg);
+        background-size: cover;
+    }
+    .free div nav ul{
+        font-size: large;
+        font-weight: bolder;
+    }
+
+    
